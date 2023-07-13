@@ -7,6 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ActiveProfiles;
 
+import com.wallet.entity.User;
+
 @ActiveProfiles("test")
 @SpringBootTest
 public class UserRepositoryTest {
